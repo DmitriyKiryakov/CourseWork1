@@ -67,3 +67,5 @@ if let tripTime = tripTime(station1: "Купчино", station2: "Боровая
 if let tripTime = tripTime(station1: "Купчино", station2: "Борjовая") {
     print("Поезда между станциями Купчиноо и Боровая займет \(tripTime) мин.")
 }
+
+//add new code here
