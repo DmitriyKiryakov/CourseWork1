@@ -48,7 +48,7 @@ func tripTime (station1 : String, station2 : String) -> Int? {
 //    return nil
     
     
-// сделаем тоже самое с конструкцией guard
+// сделаем тоже самое с конструкцией guard - если мы не можем вытащить время по названию станции - сообщаем об ошибке и выходим
     guard let (_,time1) = railRoadLine1[station1],let (_,time2) = railRoadLine1[station2] else {
         print("Проверьте название станции")
         return nil
